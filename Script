@@ -1,6 +1,7 @@
 # run_analysis.R
 
 # 1. Load required libraries
+install.packages("dplyr", repos = "https://cloud.r-project.org/")
 library(dplyr)
 
 # 2. Download and unzip data if not already present
